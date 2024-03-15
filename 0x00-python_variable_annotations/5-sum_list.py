@@ -6,6 +6,10 @@ from typing import List
 
 
 def sum_list(input_list: List[float] = []) -> float:
+    """
+    Return sum of a list as float
+    input_list: list to process
+    """
     list_sum: float = 0
 
     for x in input_list:
